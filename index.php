@@ -94,12 +94,12 @@ if (isset($_GET["Cleanup"]))
 <html>
 	<head>
 		<title>Submission 2 MACD</title>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 	</head>
 	<body>
 		<h1>Analisa Gambar dengan Azure Computer Vision</h1>
 		<p>Pilih gambar yang akan dianalisa.</p>
-		<form method="post" action="phpQS2.php" enctype="multipart/form-data">
+		<form method="post" action="index.php" enctype="multipart/form-data">
 			<input type="file" name="fileToUpload" accept=".jpeg,.jpg,.png" required=""></br></br>
 			<input type="submit" name="insert" value="Upload">
 		</form>
