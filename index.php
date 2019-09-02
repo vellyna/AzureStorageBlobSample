@@ -105,7 +105,7 @@ if (isset($_GET["Cleanup"]))
 		</form>
 		<script type="text/javascript">
 			function processImage() {
-				var subscriptionKey = "9058ec2a8e28467e95662d2f7bd7086b";
+				var subscriptionKey = "SubscriptionKey";
 				var uriBase =
 					"https://dicodingvisionvell.cognitiveservices.azure.com/vision/v2.0/analyze";
 					//"https://southeastasia.api.cognitive.microsoft.com/vision/v2.0/analyze";
