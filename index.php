@@ -8,7 +8,7 @@ use MicrosoftAzure\Storage\Blob\Models\ListBlobsOptions;
 use MicrosoftAzure\Storage\Blob\Models\CreateContainerOptions;
 use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;
 
-$connectionString = "DefaultEndpointsProtocol=https;AccountName=dicodingstoragevell;AccountKey=x0JS2G9BT/OiwZlKjzOk0kHbgQu5W8UoR0adbI1bpUYYEYFLKOrNiTsdKAhdXWDlW52Qfin6+/GgJ3Ib4qmqFw==";
+$connectionString = "DefaultEndpointsProtocol=https;AccountName=dicodingstoragevell;AccountKey=ACCOUNTKEY";
 
 // Create blob client.
 $blobClient = BlobRestProxy::createBlobService($connectionString);
@@ -105,7 +105,7 @@ if (isset($_GET["Cleanup"]))
 		</form>
 		<script type="text/javascript">
 			function processImage() {
-				var subscriptionKey = "SubscriptionKey";
+				var subscriptionKey = "SUBSCRIPTIONKEY";
 				var uriBase =
 					"https://dicodingvisionvell.cognitiveservices.azure.com/vision/v2.0/analyze";
 					//"https://southeastasia.api.cognitive.microsoft.com/vision/v2.0/analyze";
